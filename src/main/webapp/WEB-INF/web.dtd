@@ -1,0 +1,10 @@
+<!ELEMENT xsi (display-name,welcome-file-list,servlet,servlet-mapping,web-app)>
+<!ELEMENT display-name (#PCDATA)>
+<!ELEMENT welcome-file-list (welcome-file+)>
+<!ELEMENT welcome-file (#PCDATA)>
+<!ELEMENT servlet (servlet-name,servlet-class)>
+<!ELEMENT servlet-name (#PCDATA)>
+<!ELEMENT servlet-class (#PCDATA)>
+<!ELEMENT servlet-mapping (servlet-name,url-pattern)>
+<!ELEMENT url-pattern (#PCDATA)>
+<!ELEMENT web-app EMPTY>
